@@ -38,7 +38,3 @@ jobs:
           context: .
           push: true
           tags: applenova21/spring-boot-app:latest
-      run: mvn -B package --file pom.xml
-
-    # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
-  
